@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>DUBROMEL Rémy : Créations</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Ceci est mon site web personnel">
+	<meta name="author" content="DUBROMEL Rémy">
+	<link rel="icon" href="image/logoR.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><!--Police de caractère-->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Police de caractère-->
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"><!--Police de caractère-->
+</head>
+
+<body>
+	<header>
+		<img class="logo" src="image/logoR.png" alt=""><h1 id="headerTitle">DUBROMEL Rémy</h1>
+	</header>
+	<nav>
+		<a class="navLink" id="navWebsites" data-active="true" ><img src="image/icone/globe.svg" class="icone" alt=""> Mes créations</a>
+	</nav>
+	<section>
+		<div id="sitesContainer">
+			<h2 class="creationsCat">Sites</h2>
+			<div class="creationCard" style="background-color:#000">
+				<img src='../P2S/favicon.png' class='favicon' alt="">
+				<h2><a href="../P2S/" target="_blank">Plein de sites</a></h2>
+				<p>
+					Liste de sites <em>intéressants<abbr title="À définir">*</abbr></em>.
+				</p>
+				<details onclick="loadFrame(this)"><summary>Apercu</summary>
+					<iframe src="" data-url="../P2S/" height='300' width='500' class="apercu" loading="lazy"></iframe>
+				</details>
+			</div>
+			
+			<div class="creationCard" style="background-color:#4e8601">
+				<img src='https://www.gta5billboards.com/favicon.png' class='favicon' alt="">
+				<h2><a href="https://www.gta5billboards.com/" target="_blank">GTA 5 Billboards</a></h2>
+				<p>
+					Liste des panneaux publicitaires présents dans le jeu <em>Grand Theft Auto 5</em>.
+				</p>
+				<details onclick="loadFrame(this)"><summary>Apercu</summary>
+					<iframe src="" data-url="https://www.gta5billboards.com/" height='300' width='500' class="apercu" loading="lazy"></iframe>
+				</details>
+			</div>
+			
+			<div class="creationCard" style="background-color:#0d5c63">
+				<img src='../MemeAlternative/favicon.png' class='favicon' alt="">
+				<h2><a href="../MemeAlternative/" target="_blank">Meme alternative</a></h2>
+				<p>
+					Liste des variations de <abbr title='"Élément ou phénomène repris et décliné en masse sur Internet"'>meme</abbr>s.
+				</p>
+				<details onclick="loadFrame(this)"><summary>Apercu</summary>
+					<iframe src="" data-url="../MemeAlternative/" height='300' width='500' class="apercu" loading="lazy"></iframe>
+				</details>
+			</div>
+			
+			<div class="creationCard" style="background-color:#f4a460">
+				<img src='../SandSimulation/favicon.png' class='favicon' alt="">
+				<h2><a href="../SandSimulation/" target="_blank">Sand physics simulation</a></h2>
+				<p>
+					Simulation de physique de sable+.
+				</p>
+				<details onclick="loadFrame(this)"><summary>Apercu</summary>
+					<iframe src="" data-url="../SandSimulation/" height='300' width='500' class="apercu" loading="lazy"></iframe>
+				</details>
+			</div>
+			
+			<div class="creationCard" style="background-color:#79553a">
+				<img src='../MCServerStatus/favicon.png' class='favicon' alt="">
+				<h2><a href="../MCServerStatus/" target="_blank">Minecraft Server Status</a></h2>
+				<p>
+					Affiche le status d'un serveur multijoueur <em>Minecraft</em>.
+				</p>
+				<details onclick="loadFrame(this)"><summary>Apercu</summary>
+					<iframe src="" data-url="../MCServerStatus/" height='300' width='500' class="apercu" loading="lazy"></iframe>
+				</details>
+			</div>
+			
+			<div class="creationCard" style="background-color:#30024f">
+				<img src='../GPhone/favicon.png' class='favicon' alt="">
+				<h2><a href="../GPhone/" target="_blank">Liste avatars GARTIC PHONE</a></h2>
+				<p>
+					Liste des avatars disponible sur le jeu <em>Gartic Phone</em>.
+				</p>
+				<details onclick="loadFrame(this)"><summary>Apercu</summary>
+					<iframe src="" data-url="../GPhone/" height='300' width='500' class="apercu" loading="lazy"></iframe>
+				</details>
+			</div>
+			
+			<div class="creationCard wip" style="background-color:#003838">
+				<img src='../TSNI/favicon.png' class='favicon' alt="">
+				<h2><a class="fakeLink">Train Simulator Network Importer</a></h2>
+				<abbr title="Work in progress">WIP</abbr>
+				<p>
+					Projet : importer des lignes ferroviaires françaises dans le jeu <em>Train Simulator</em> à l'aide d'une base de données SNCF.
+				</p>
+			</div>
+			<div class="creationCard" style="background-color:#4408">
+				<p>
+					+ Quelques sites persos
+				</p>
+			</div>
+		</div>
+
+
+
+		<div id="SoftwareContainer">
+			<h2 class="creationsCat">Programmes</h2>
+
+			<div class="creationCard" style="background-color:#4aaf60">
+				<img src='./image/LSPDFRPrereqCheckIcon.png' class='favicon' alt="">
+				<h2><a href="https://www.microsoft.com/store/apps/9P6HG46C4DDP" target="_blank">LSPDFR Prerequisites Checker</a></h2>
+				<p>
+					Outil permettant de vérifier la bonne installation et mise à jour de différents prérequis pour le mod LSPDFR (GTA 5) et ses plugins.
+				</p>
+				<em>WinUI</em>
+				<details><summary>Apercu</summary>
+					<img class="apercu" src="./image/LSPDFRPrereqCheckScreen.png" alt="">
+				</details>
+			</div>
+		</div>
+
+	</section>
+	<footer>
+		<a href="mailto:dubromel.remy&#64;gmail.com"><img src="image/icone/mail.svg" class="icone" alt="Email :"> dubromel.remy&#64;gmail.com</a>
+	</footer>
+	<script>
+		function loadFrame(site) {
+			frame = site.getElementsByClassName('apercu')[0];
+			frame.src = frame.getAttribute('data-url');
+		}
+	</script>
+</body>
+</html>
